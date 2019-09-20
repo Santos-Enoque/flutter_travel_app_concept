@@ -2,7 +2,7 @@
 
 This is a UI / Ux concept for a booking app
 
-<img src='images/booking.jpg>
+<img src="images/booking.jpg">
 
 ## Getting Started
 
