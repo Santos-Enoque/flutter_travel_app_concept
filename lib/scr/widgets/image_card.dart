@@ -35,7 +35,7 @@ class ImageCard extends StatelessWidget {
               children: <Widget>[
                 Image.asset(
                   "images/$picture",
-                  height: 260,
+                  height: double.infinity,
                   width: 200,
                   fit: BoxFit.cover,
                 ),
@@ -43,7 +43,6 @@ class ImageCard extends StatelessWidget {
                 Align(
                   alignment: Alignment.bottomCenter,
                   child: Container(
-                      height: 100,
                       width: 200,
                       decoration: BoxDecoration(
                         // Box decoration takes a gradient

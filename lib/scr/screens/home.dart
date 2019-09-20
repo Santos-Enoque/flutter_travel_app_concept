@@ -63,7 +63,7 @@ class _HomeState extends State<Home> {
                 ],
               ),
               SizedBox(height: 10,),
-              ImageCards(),
+              Expanded(child: Container(child: ImageCards())),
               SizedBox(height: 25,),
 
               Align(

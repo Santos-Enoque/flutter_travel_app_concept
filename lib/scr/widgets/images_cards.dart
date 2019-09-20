@@ -10,7 +10,7 @@ class ImageCards extends StatefulWidget {
 }
 
 class _ImageCardsState extends State<ImageCards> {
- List<Place> images = [
+ List<Place> places = [
   Place(place: 'Austia', image: '1.jpg', days: 7),
    Place(place: 'India', image: '2.jpg', days: 12),
    Place(place: 'Bali', image: '3.jpg', days: 3),
@@ -22,16 +22,15 @@ class _ImageCardsState extends State<ImageCards> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 260,
         child: ListView.builder(
             scrollDirection: Axis.horizontal,
-            itemCount: images.length,
+            itemCount: places.length,
             itemBuilder: (_, index) {
               return ImageCard(
-                place: images[index],
-                name: images[index].place,
-                days: images[index].days,
-                picture: images[index].image,
+                place: places[index],
+                name: places[index].place,
+                days: places[index].days,
+                picture: places[index].image,
               );
             }));
   }

@@ -73,14 +73,6 @@ class Details extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(10),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.black,
-                                blurRadius: 8,
-                                offset: Offset(1, 1)
-                              )
-                            ]
-
                           ),
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
